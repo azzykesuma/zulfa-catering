@@ -2,3 +2,26 @@
 body {
     overflow-x: hidden;
 }
+
+/* custom menu */
+.nasi {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url('./asset/nasi.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ayam {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url('./asset/ayam-bakar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
