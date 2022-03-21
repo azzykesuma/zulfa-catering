@@ -11,27 +11,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body style="background-color: #EBE310">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button type="button" data-bs-toggle="collapse" class="navbar-toggler"
-            data-bs-target="#navbarNav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <img style="width: 80px;height: 80px;" src="./asset/logo.png" alt="logo-icons">
-        </div>
-        <div class="collapse navbar-collapse p-2" style="background-color: #F17105;" id="navbarNav">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-lg">
+        <!-- hamburger btn -->
+          <button type="button" data-bs-toggle="collapse" class="navbar-toggler d-md-none"
+          data-bs-target="#navbarNav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- brand img -->
+          <img style="width: 80px;height: 80px;" src="./asset/logo.png" alt="logo-icons">
+          <!-- collapse navbar -->
+          <div class="collapse navbar-collapse p-2 justify-content-end align-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-white fs-5" aria-current="page" href="#food">Menu Makanan</a>
+                <a class="nav-link active text-dark fs-35" aria-current="page" href="#food">Menu Makanan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fs-5" href="#snack">Menu Snack</a>
+                <a class="nav-link text-dark fs-35" href="#snack">Menu Snack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fs-5" href="#others">Jasa Lainya</a>
+                <a class="nav-link text-dark fs-35" href="#others">Jasa Lainya</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fs-5" href="#customMenu">Custom Menu</a>
+                <a class="nav-link text-dark fs-35" href="#customMenu">Custom Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-35" href="#testimony">Testimony</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-35" href="#testimony">Kontak</a>
               </li>
             </ul>
           </div>
@@ -52,13 +60,13 @@
       </section>
 
       <section id="whyus" class="mt-5">
-        <div class="container-lg justify-content-center text-center">
+        <div class="container-md text-center">
           <h2 class="display-1">Kenapa Zulfa Catering ?</h2>
-          <p class="lead">Kita berkomitmen untuk menyajikan 
+          <p class="lead mx-auto" style="max-width: 50ch;">Kita berkomitmen untuk menyajikan 
           makanan sehat dan terjangkau , dan fleksibel sesuai dengan keinginan pelanggan</p>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="d-flex align-items-start text-start gap-3">
+          <div class="row mt-5 justify-content-lg-center">
+            <div class="col-md-4 col-lg-3">
+              <div class="d-flex d-md-block align-items-start text-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30 fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
                   <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
                   <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
@@ -66,8 +74,8 @@
                 <p class="fs-5">Menu makanan yang variatif dan bisa di custom</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="d-flex d-flex align-items-start text-start gap-3">
+            <div class="col-md-4 col-lg-3">
+              <div class="d-flex d-md-block align-items-start text-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
                   <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
                   <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
@@ -75,8 +83,8 @@
                 <p class="fs-5">Chef Berpengalaman</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="d-flex d-flex align-items-start text-start gap-3">
+            <div class="col-md-4 col-lg-3">
+              <div class="d-flex d-md-block align-items-start text-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
                   <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
                 </svg>
@@ -87,10 +95,10 @@
         </div>
       </section>
 
-      <section id="food" class="container">
+      <section id="food" class="container" style="overflow-x: hidden;">
         <h2 class="display-1 text-center">Menu Makanan</h2>
         <div class="row">
-          <div id="carouselFood" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselFood" class="carousel slide d-md-none" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card mx-auto mt-3" style="width: 18rem;">
@@ -173,10 +181,86 @@
         </div>
       </section>
 
+      <!-- food section on tablet query -->
+      <section id="foodTablet" class="d-none d-lg-block mt-5">
+        <div class="container-lg">
+          <div class="row justify-content-center justify-content-center gap-1">
+            <div class="col-lg-3 text-center">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/food-20.jfif" style="height: 20em;" class="card-img-top img-fluid" alt="menu 20 ribu">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Paket Hemat</h3>
+                  <h4 class="lead text-center">Rp. 20.000</h4>
+                  <div class="d-flex text-lg-start">
+                    <ul>
+                      <li>Nasi</li>
+                      <li>Urap</li>
+                      <li>Sambal</li>
+                    </ul>
+                    <ul>
+                      <li>Kerupuk</li>
+                      <li>Ayam Bakar</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/food-25.jfif" style="height: 20em;" class="card-img-top img-fluid" alt="Menu 25 ribu">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Paket Mantap</h3>
+                  <h4 class="lead text-center">Rp. 25.000</h4>
+                  <div class="d-flex text-lg-start">
+                    <ul>
+                      <li>Nasi</li>
+                      <li>Daging Teriyaki</li>
+                      <li>Gerejeg Rebon</li>
+                      <li>Bihun Goreng</li>
+                    </ul>
+                    <ul>
+                      <li>Kerupuk</li>
+                      <li>Sambel</li>
+                      <li>Semangka</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/food-30.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="menu 35 ribu">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Paket Kenyang</h3>
+                  <h4 class="lead text-center">Rp.35.000</h4>
+                  <div class="d-flex text-lg-start">
+                    <ul>
+                      <li>Nasi</li>
+                      <li>Empal Daging</li>
+                      <li>Cumi Asam Manis</li>
+                      <li>Sop Kimlo</li>
+                    </ul>
+                    <ul>
+                      <li>Lalap</li>
+                      <li>Kerupuk</li>
+                      <li>Acar</li>
+                      <li>Jeruk</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="snack" class="mt-5">
         <h2 class="display-1 text-center">Menu Snack</h2>
         <div class="row">
-          <div id="carouselSnack" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselSnack" class="carousel slide d-lg-none" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card mx-auto mt-3" style="width: 18rem;">
@@ -232,10 +316,60 @@
         </div>
       </section>
 
+      <!-- snack tablet query -->
+
+      <section id="snackTablet" class="d-none d-lg-block">
+        <div class="container-lg">
+          <div class="row justify-content-center gap-1">
+            <div class="col-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/snack-1.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="menu 20 ribu">
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">Paket Snack A</h3>
+                  <h4 class="lead text-center">Rp. 10.000</h4>
+                  <div class="d-flex">
+                    <ul>
+                      <li>Risol</li>
+                      <li>Arem-arem</li>
+                      <li>Putu Ayu</li>
+                    </ul>
+                    <ul>
+                      <li>Air Mineral</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary align-self-center">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/snack-2.jfif" style="height: 20em;" class="card-img-top img-fluid" alt="Menu 25 ribu">
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title text-center">Paket Snack B</h3>
+                  <h4 class="lead text-center">Rp. 15.000</h4>
+                  <div class="d-flex">
+                    <ul>
+                      <li>Lontong Isi</li>
+                      <li>Risol</li>
+                      <li>Putu Ayu</li>
+                    </ul>
+                    <ul>
+                      <li>Kacang Goreng</li>
+                      <li>Teh botol kotak</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary align-self-center">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="others" class="mt-5">
         <h2 class="display-1 text-center">Menu Lainya</h2>
         <div class="row">
-          <div id="carouselOtherMenu" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselOtherMenu" class=" d-lg-none carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card mx-auto mt-3" style="width: 18rem;">
@@ -331,63 +465,151 @@
         </div>
       </section>
 
+      <section id="othersTablet" class="d-none d-lg-block">
+        <div class="container-lg">
+          <div class="row justify-content-lg-center gap-1">
+            <div class="col-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/tumpeng-1.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="tumpeng small">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Tumpeng Small</h3>
+                  <h4 class="lead text-center">Rp. 100.000</h4>
+                  <div class="d-flex">
+                    <ul>
+                      <li>Nasi 1 liter</li>
+                      <li>Telur 10 butir</li>
+                      <li>Gerejeg</li>
+                    </ul>
+                    <ul>
+                      <li>Tahu</li>
+                      <li>Tempe</li>
+                      <li>Sambal</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/tumpeng-2.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="tumpeng medium">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Tumpeng Medium</h3>
+                  <h4 class="lead text-center">Rp. 200.000</h4>
+                  <div class="d-flex">
+                    <ul>
+                      <li>Nasi 2 liter</li>
+                      <li>telur 15 butir</li>
+                      <li>Ayam 2 ekor</li>
+                      <li>Lalapan</li>
+                    </ul>
+                    <ul>
+                      <li>Tahu</li>
+                      <li>Tempe</li>
+                      <li>Sambal</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/tumpeng-3.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="tumpeng large">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Tumpeng Medium</h3>
+                  <h4 class="lead text-center">Rp. 300.000</h4>
+                  <div class="d-flex">
+                    <ul>
+                      <li>Nasi 3 liter</li>
+                      <li>telur 20 butir</li>
+                      <li>Ayam 3 ekor</li>
+                      <li>Lalapan</li>
+                    </ul>
+                    <ul>
+                      <li>Tahu</li>
+                      <li>Tempe</li>
+                      <li>Sambal</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card mx-auto mt-3" style="width: 18rem;">
+                <img src="./asset/jasa-masak.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="jasa masak">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Jasa Masak Panggilan</h3>
+                  <h4 class="lead text-center">Perjam Rp.75.000</h4>
+                  <p>
+                    Sangat cocok untuk berbagai acara seperti syukuran, pesta pernikahan, khitan, reuni dan lainya
+                  </p>
+                  <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="customMenu" class="mt-5">
         <h2 class="display-1 text-center">Menu Custom</h2>
         <h3 class="lead text-center">Mau pesan menu sendiri? bisa!</h3>
         <div class="container-lg">
           <div class="row gap-2 justify-content-center mt-3">
-            <div class="col-5 d-flex align-items-center nasi" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center nasi" style="height: 100px;">
               <p class="fw-bold text-white text-center">per porsi : Rp.3.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center ayam" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center ayam" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center urap" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center urap" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center sambal" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center sambal" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center kerupuk" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center kerupuk" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center teriyaki" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center teriyaki" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center gerejeg" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center gerejeg" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center bihun" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center bihun" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center semangka" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center semangka" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center rendang" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center rendang" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center capcay" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center capcay" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center perkedel" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center perkedel" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center empal" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center empal" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center cumi" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center cumi" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center sop" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center sop" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center lalap" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center lalap" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center acar" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center acar" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 d-flex align-items-center jeruk" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center jeruk" style="height: 100px;">
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
           </div>
@@ -440,9 +662,9 @@
 
       <section id="contact">
         <h2 class="display-1 text-center">Kontak Kami</h2>
-        <div class="container-md">
-          <form>
-            <div class="input-group my-3">
+        <div class="container">
+          <form class="d-flex flex-column align-items-center">
+            <div class="input-group my-3 w-50">
               <span class="input-group-text" id="basic-addon1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -450,13 +672,13 @@
               </span>
               <input type="text" class="form-control" placeholder="Nama Anda" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="mb-3">
+            <div class="mb-3 w-50">
               <label for="exampleFormControlTextarea1" class="form-label">Pertanyaan</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
               placeholder="masukan pertanyaan atau pesanan anda"
               ></textarea>
             </div>
-            <a href="https://wa.me/081380927571"
+            <a href="https://wa.me/+6281380927571"
             role="button" class="btn btn-primary"
             >Kirim Pertanyaan</a>
           </form>
