@@ -201,3 +201,13 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@media screen and (min-width: 568px) {
+    .name,
+    .question {
+        max-width: 50%;
+    }
+    .ask {
+        max-width: 250px;
+    }
+}

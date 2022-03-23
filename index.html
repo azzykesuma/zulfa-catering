@@ -59,14 +59,14 @@
         </div>
       </section>
 
-      <section id="whyus" class="mt-5">
+      <section id="whyus" class="my-5">
         <div class="container-md text-center">
-          <h2 class="display-1">Kenapa Zulfa Catering ?</h2>
+          <h2 class="display-4">Kenapa Zulfa Catering ?</h2>
           <p class="lead mx-auto" style="max-width: 50ch;">Kita berkomitmen untuk menyajikan 
           makanan sehat dan terjangkau , dan fleksibel sesuai dengan keinginan pelanggan</p>
           <div class="row mt-5 justify-content-lg-center">
             <div class="col-md-4 col-lg-3">
-              <div class="d-flex d-md-block align-items-start text-center gap-3">
+              <div class="d-flex d-md-block align-items-start text-start text-md-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30 fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
                   <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
                   <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
@@ -95,10 +95,10 @@
         </div>
       </section>
 
-      <section id="food" class="container" style="overflow-x: hidden;">
-        <h2 class="display-1 text-center">Menu Makanan</h2>
+      <section id="food" class="container mt-5" style="overflow-x: hidden;">
+        <h2 class="display-4 text-center">Menu Makanan</h2>
         <div class="row">
-          <div id="carouselFood" class="carousel slide d-md-none" data-bs-ride="carousel">
+          <div id="carouselFood" class="carousel slide d-lg-none" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card mx-auto mt-3" style="width: 18rem;">
@@ -184,8 +184,8 @@
       <!-- food section on tablet query -->
       <section id="foodTablet" class="d-none d-lg-block mt-5">
         <div class="container-lg">
-          <div class="row justify-content-center justify-content-center gap-1">
-            <div class="col-lg-3 text-center">
+          <div class="row justify-content-evenly">
+            <div class="col-lg-4 text-center">
               <div class="card mx-auto mt-3" style="width: 18rem;">
                 <img src="./asset/food-20.jfif" style="height: 20em;" class="card-img-top img-fluid" alt="menu 20 ribu">
                 <div class="card-body">
@@ -196,9 +196,9 @@
                       <li>Nasi</li>
                       <li>Urap</li>
                       <li>Sambal</li>
+                      <li>Kerupuk</li>
                     </ul>
                     <ul>
-                      <li>Kerupuk</li>
                       <li>Ayam Bakar</li>
                     </ul>
                   </div>
@@ -206,7 +206,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
               <div class="card mx-auto mt-3" style="width: 18rem;">
                 <img src="./asset/food-25.jfif" style="height: 20em;" class="card-img-top img-fluid" alt="Menu 25 ribu">
                 <div class="card-body">
@@ -229,7 +229,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
               <div class="card mx-auto mt-3" style="width: 18rem;">
                 <img src="./asset/food-30.jpg" style="height: 20em;" class="card-img-top img-fluid" alt="menu 35 ribu">
                 <div class="card-body">
@@ -258,7 +258,7 @@
       </section>
 
       <section id="snack" class="mt-5">
-        <h2 class="display-1 text-center">Menu Snack</h2>
+        <h2 class="display-4 text-center">Menu Snack</h2>
         <div class="row">
           <div id="carouselSnack" class="carousel slide d-lg-none" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -367,7 +367,7 @@
       </section>
 
       <section id="others" class="mt-5">
-        <h2 class="display-1 text-center">Menu Lainya</h2>
+        <h2 class="display-4 text-center">Menu Lainya</h2>
         <div class="row">
           <div id="carouselOtherMenu" class=" d-lg-none carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -554,70 +554,88 @@
       </section>
 
       <section id="customMenu" class="mt-5">
-        <h2 class="display-1 text-center">Menu Custom</h2>
+        <h2 class="display-4 text-center">Menu Custom</h2>
         <h3 class="lead text-center">Mau pesan menu sendiri? bisa!</h3>
         <div class="container-lg">
           <div class="row gap-2 justify-content-center mt-3">
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center nasi" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center nasi" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Nasi</p>
               <p class="fw-bold text-white text-center">per porsi : Rp.3.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center ayam" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center ayam" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Ayam</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center urap" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center urap" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Urap</p>
+              <p class="fw-bold text-white text-center">per Porsi : Rp.10.000</p>
+            </div>
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center sambal" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Sambal</p>
+              <p class="fw-bold text-white text-center">per Porsi : Rp.10.000</p>
+            </div>
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center kerupuk" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Kerupuk</p>
+              <p class="fw-bold text-white text-center">per Porsi : Rp.10.000</p>
+            </div>
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center teriyaki" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Teriyaki</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center sambal" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center gerejeg" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Gerejeg</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center kerupuk" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center bihun" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Bihun</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center teriyaki" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center semangka" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Semangka/p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center gerejeg" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center rendang" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Rendang</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center bihun" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center capcay" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Capcay</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center semangka" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center perkedel" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Perkedel</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center rendang" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center empal" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Empal</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center capcay" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center cumi" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Cumi</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center perkedel" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center sop" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Sop</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center empal" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center lalap" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Lalap</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center cumi" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center acar" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Acar</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center sop" style="height: 100px;">
-              <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
-            </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center lalap" style="height: 100px;">
-              <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
-            </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center acar" style="height: 100px;">
-              <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
-            </div>
-            <div class="col-5 col-md-3 col-lg-2 d-flex align-items-center jeruk" style="height: 100px;">
+            <div class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center jeruk" style="height: 100px;">
+              <p class="fw-bold text-white text-center">Jeruk</p>
               <p class="fw-bold text-white text-center">per potong : Rp.10.000</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="testimony" class="mt-5">
-        <h2 class="display-1 text-center">Apa Kata Mereka</h2>
+      <section id="testimony" class="my-5">
+        <h2 class="display-4 text-center">Apa Kata Mereka</h2>
         <div class="container-lg text-center">
           <div class="row">
             <div class="col-md-4 p-3">
@@ -660,30 +678,54 @@
         </div>
       </section>
 
-      <section id="contact">
-        <h2 class="display-1 text-center">Kontak Kami</h2>
-        <div class="container">
-          <form class="d-flex flex-column align-items-center">
-            <div class="input-group my-3 w-50">
+      <section id="contact my-5">
+        <h2 class="display-4 text-center">Kontak Kami</h2>
+        <div class="container-sm">
+          <form>
+            <div class="input-group my-3 justify-content-center">
               <span class="input-group-text" id="basic-addon1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                 </svg>
               </span>
-              <input type="text" class="form-control" placeholder="Nama Anda" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control name" placeholder="Nama Anda" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="mb-3 w-50">
+            <div class="mb-3 d-flex flex-column align-items-center">
               <label for="exampleFormControlTextarea1" class="form-label">Pertanyaan</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              <textarea class="form-control question" id="exampleFormControlTextarea1" rows="3"
               placeholder="masukan pertanyaan atau pesanan anda"
               ></textarea>
             </div>
             <a href="https://wa.me/+6281380927571"
-            role="button" class="btn btn-primary"
+            role="button" class="d-block mx-auto ask btn btn-primary"
             >Kirim Pertanyaan</a>
           </form>
         </div>
       </section>
     </main>
+    <footer style="background-color: #0D1B2A;color: white;">
+      <div class="container-md text-center p-3">
+        <h3>Semua makanan dijamin kebersihan dan kehalalanya</h3>
+        <p>Selamat Menikmati</p>
+        <div class="d-flex gap-3 justify-content-center align-center mb-3">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+          </a>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+          </a>
+        </div>
+        <small>copyright @Zulfa Catering 2022</small>
+      </div>
+    </footer>
 </body>
 </html>
